@@ -10,7 +10,7 @@ Our program enables merchants to take and manipulate orders from customers; afte
 ## Usage
 _Notes: Email login as the sender currently only works for limited email accounts due to security reasons_
 
-<img src="doc/final_design.jpeg" alt="Digital Receipt System" align="left" height="600"></a>
+<img src="doc/final_design.jpeg" alt="Digital Receipt System" align="center" height="550"><br/>
 1. Run `make merchant`
 2. `./merchant` without any arguments runs the program in interactive mode
 	1. **Login - merchant prompted for an ID**
