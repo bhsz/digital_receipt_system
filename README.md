@@ -1,25 +1,34 @@
 # Digital Receipt System
-## Introduction
-First Year (1920) C Group Project Extension developed by Zirun Zhai, Ivy Tam, Soon Zhi Ho (Brandon), Wei Yi Tee. \
-Designed in mind to eliminate the need of paper receipts.
-Our program allows merchants to be able to take and manipulate orders from customers; after an order is paid, the receipt can be issued to the customer via email. 
-<!--- 
+**C Project Extension** - Computing Year 1, Imperial College London.\
+Developed by Zirun Zhai, Ivy Tam, Soon Zhi Ho (Brandon), Wei Yi Tee.
+
+**Project Summary:**\
+Designed to eliminate the need of paper receipts. \
+Our program enables merchants to take and manipulate orders from customers; after an order is paid, the receipt can be issued via email to the customer. 
+
+
 ## Usage
+_Notes: Email login as the sender currently only works for limited email accounts due to security reasons_
+
+<img src="doc/final_design.jpeg" alt="Digital Receipt System" align="left" height="600"></a>
 1. Run `make merchant`
 2. `./merchant` without any arguments runs the program in interactive mode
-  1. Login
-    * Merchant will be prompted to enter an ID
-      * Existing merchant: prompted for password of input ID 
-      * New merchant: prompted for registration of a new ID and password
-        * A new folder created for the merchant where the merchant's menu will be stored (currently by drag and drop of a text document)
-Access to merchant's email is needed for sending emails to customers
-Currently only works for email accounts allowing access to less secure apps
-After successful login, merchant's menu will be loaded from their respective folders
+	1. **Login - merchant prompted for an ID**
+	  *  New ID: Prompt for registration with password (hashed and stored with ID in merchantID.txt)
+	  *  Existing ID: Prompt for password which will be checked against stored hash
+	2. **Setting sender email**
+	  * Merchant will be prompted for an email address and password from where receipts are sent to customers
+	  * Authentication currently only works for gmail accounts which allow access from less secure apps
+	3. **Menu loaded, merchant actions:**
+	  * Each merchant has their own folder (id as folder name, stored in Merchants folder) which stores a record of receipts and the merchant's menu of items to sell (currently only supports addition by manually moving a menu text file into the folder)
+	  * After successful login, the menu will be loaded and the merchant can select actions to be carried out by inputting the action's corresponding number as follows :\
+	  **[0] Quit program\
+    [1] Take new order\
+    [2] Edit order\
+    [3] Cancel order\
+    [4] Pay order + Send receipt**
 
-Input numbers to carry out actions corresponding to the number as below:\
-  [0] Quit Program
-  [1] Take new order
-  [2] Edit order
-  [3] Cancel order
-  [4] Pay order
---->
+
+
+## Testing 
+
