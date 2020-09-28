@@ -1,5 +1,6 @@
 # Digital Receipt System
 **C Project Extension** - Computing Year 1, Imperial College London.\
+_(Repository for implementation of C Project: ARM11 emulator and assembler available upon request)_\
 Developed by Zirun Zhai, Ivy Tam, Soon Zhi Ho (Brandon), Wei Yi Tee.
 
 **Project Summary:**\
@@ -31,4 +32,7 @@ _Notes: Email login as the sender currently only works for limited email account
 
 
 ## Testing 
+**Manual testing**: Go to [tests/](tests/)\
+**Automatic testing (limited)**: Run `make runtest` and `./runtest`
+
 
