@@ -1,7 +1,9 @@
 # Digital Receipt System
 **C Project Extension** - Computing Year 1, Imperial College London.\
-_(Repository for implementation of C Project: ARM11 emulator and assembler available upon request)_\
-Developed by Zirun Zhai, Ivy Tam, Soon Zhi Ho (Brandon), Wei Yi Tee.
+Developed by Zirun Zhai, Ivy Tam, Soon Zhi Ho (Brandon), Wei Yi Tee.\
+_Available upon request:_
+* Usage + Testing demo
+* Repository for implementation of C Project: ARM11 emulator and assembler
 
 **Project Summary:**\
 Designed to eliminate the need of paper receipts. \
