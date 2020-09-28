@@ -8,6 +8,7 @@ In order to test our digital receipt system we have made some text files to simu
 with the email address you wish to receive your receipt.
 3. Run ./merchant \<filename of test\> in your terminal
 4. Check your email address for the receipt and compare the output to the expected text file.
+
 _Note: Email address authentication may fail due to security reasons_
 
 ## Test Cases Information:
